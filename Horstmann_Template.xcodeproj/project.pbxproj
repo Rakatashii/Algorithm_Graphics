@@ -1,0 +1,220 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53AAE3FA144D15530082B27B /* ccc_shap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53AAE3F4144D15530082B27B /* ccc_shap.cpp */; };
+		53AAE3FB144D15530082B27B /* ccc_x11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53AAE3F7144D15530082B27B /* ccc_x11.cpp */; };
+		53AAE3FC144D15530082B27B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53AAE3F9144D15530082B27B /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		53AAE3E5144D14E60082B27B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		53AAE3E7144D14E60082B27B /* Horstmann_Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Horstmann_Template; sourceTree = BUILT_PRODUCTS_DIR; };
+		53AAE3F4144D15530082B27B /* ccc_shap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ccc_shap.cpp; sourceTree = "<group>"; };
+		53AAE3F5144D15530082B27B /* ccc_shap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccc_shap.h; sourceTree = "<group>"; };
+		53AAE3F6144D15530082B27B /* ccc_win.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccc_win.h; sourceTree = "<group>"; };
+		53AAE3F7144D15530082B27B /* ccc_x11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ccc_x11.cpp; sourceTree = "<group>"; };
+		53AAE3F8144D15530082B27B /* ccc_x11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccc_x11.h; sourceTree = "<group>"; };
+		53AAE3F9144D15530082B27B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53AAE3E4144D14E60082B27B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53AAE3DC144D14E50082B27B = {
+			isa = PBXGroup;
+			children = (
+				53AAE3F4144D15530082B27B /* ccc_shap.cpp */,
+				53AAE3F5144D15530082B27B /* ccc_shap.h */,
+				53AAE3F6144D15530082B27B /* ccc_win.h */,
+				53AAE3F7144D15530082B27B /* ccc_x11.cpp */,
+				53AAE3F8144D15530082B27B /* ccc_x11.h */,
+				53AAE3F9144D15530082B27B /* main.cpp */,
+				53AAE3E8144D14E60082B27B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53AAE3E8144D14E60082B27B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53AAE3E7144D14E60082B27B /* Horstmann_Template */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53AAE3E6144D14E60082B27B /* Horstmann_Template */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53AAE3F1144D14E60082B27B /* Build configuration list for PBXNativeTarget "Horstmann_Template" */;
+			buildPhases = (
+				53AAE3E3144D14E60082B27B /* Sources */,
+				53AAE3E4144D14E60082B27B /* Frameworks */,
+				53AAE3E5144D14E60082B27B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Horstmann_Template;
+			productName = Horstmann;
+			productReference = 53AAE3E7144D14E60082B27B /* Horstmann_Template */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53AAE3DE144D14E50082B27B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Drexel University";
+			};
+			buildConfigurationList = 53AAE3E1144D14E50082B27B /* Build configuration list for PBXProject "Horstmann_Template" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53AAE3DC144D14E50082B27B;
+			productRefGroup = 53AAE3E8144D14E60082B27B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53AAE3E6144D14E60082B27B /* Horstmann_Template */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53AAE3E3144D14E60082B27B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AAE3FA144D15530082B27B /* ccc_shap.cpp in Sources */,
+				53AAE3FB144D15530082B27B /* ccc_x11.cpp in Sources */,
+				53AAE3FC144D15530082B27B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		53AAE3EF144D14E60082B27B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = /usr/X11R6/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lX11";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		53AAE3F0144D14E60082B27B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = /usr/X11R6/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = "-lX11";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		53AAE3F2144D14E60082B27B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/X11/include/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53AAE3F3144D14E60082B27B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/X11/include/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53AAE3E1144D14E50082B27B /* Build configuration list for PBXProject "Horstmann_Template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53AAE3EF144D14E60082B27B /* Debug */,
+				53AAE3F0144D14E60082B27B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53AAE3F1144D14E60082B27B /* Build configuration list for PBXNativeTarget "Horstmann_Template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53AAE3F2144D14E60082B27B /* Debug */,
+				53AAE3F3144D14E60082B27B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53AAE3DE144D14E50082B27B /* Project object */;
+}
