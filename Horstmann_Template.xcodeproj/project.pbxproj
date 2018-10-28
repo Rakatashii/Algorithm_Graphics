@@ -48,11 +48,11 @@
 		53AAE3DC144D14E50082B27B = {
 			isa = PBXGroup;
 			children = (
-				53AAE3F4144D15530082B27B /* ccc_shap.cpp */,
 				53AAE3F5144D15530082B27B /* ccc_shap.h */,
+				53AAE3F4144D15530082B27B /* ccc_shap.cpp */,
 				53AAE3F6144D15530082B27B /* ccc_win.h */,
-				53AAE3F7144D15530082B27B /* ccc_x11.cpp */,
 				53AAE3F8144D15530082B27B /* ccc_x11.h */,
+				53AAE3F7144D15530082B27B /* ccc_x11.cpp */,
 				53AAE3F9144D15530082B27B /* main.cpp */,
 				53AAE3E8144D14E60082B27B /* Products */,
 			);

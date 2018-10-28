@@ -111,10 +111,13 @@ public:
       @param dx the amount to move in the x-direction
       @param dy the amount to move in the y-direction
    */
+   Point midpoint() const;
+   double get_distance() const;
    void move(double dx, double dy);
 private:
    Point from;
    Point to;
+   double distance;
 };
 
 /**
@@ -159,5 +162,56 @@ private:
    Point start;
    string text;
 };
+/*
+Exercise P5.14. Implement a class Rectangle that works just like the other graphics classes such as Circle or Line. A rectangle is constructed from two corner points. The sides of the rectangle are parallel to the coordinate axes:
+You do not yet know how to define a << operator to plot a rectangle. Instead, define a member function plot. Supply a function move. Pay attention to const. Then write a sample program that constructs and plots a few rectangles.
+ */
+#include "ccc_x11.h"
+class Rectangle{
+public:
+    Rectangle();
+    Rectangle(Point tl, Point br);
+    //Rectangle(Point tl, Point tr, Point bl, Point br);
+    Point get_topleft() const;
+    Point get_botright() const;
+    Point get_topright() const;
+    Point get_botleft() const;
+    double calc_r_area();
+    double calc_r_perimeter();
+    void display() const;
+private:
+    Point topleft, botright, topright, botleft;
+    Line left_vertical, right_vertical, top_horizontal, bot_horizontal;
+    double length, width;
+};
+
+class Triangle{
+public:
+    Triangle(Point p1, Point p2, Point p3);
+    double calc_t_area();
+    double calc_t_perimeter();
+    bool is_equilateral() const;
+    void display() const;
+private:
+    Point a, b, c;
+    Line ab, ac, bc;
+    Line hypotenuse;
+    double height;
+    bool equilateral, isosceles;
+    Point opposite;
+    double max_x, max_y, min_x, min_y;
+};
+
+// Need to make this functional for both rectangles and triangles
+class Prism{
+public:
+    Prism(Rectangle a, Rectangle b);
+    Prism(Triangle a, Triangle b);
+    void display();
+private:
+    Rectangle r1, r2;
+    Line top_right, top_left, bot_right, bot_left;
+};
+
 
 #endif

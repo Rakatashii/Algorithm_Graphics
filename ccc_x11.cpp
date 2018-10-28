@@ -15,13 +15,13 @@ the highly technical details of the implementation.
 
 /* CONSTANTS ****************************************************************/
 
-const double DEFAULT_XMIN = -10;
-const double DEFAULT_YMIN = 10;
-const double DEFAULT_XMAX = 10;
-const double DEFAULT_YMAX = -10;
+const double DEFAULT_XMIN = -100;
+const double DEFAULT_YMIN = 100;
+const double DEFAULT_XMAX = 100;
+const double DEFAULT_YMAX = -100;
 
-static int DEF_WIDTH = 480;
-static int DEF_HEIGHT = 480;
+static int DEF_WIDTH = 500;
+static int DEF_HEIGHT = 500;
 
 // The following is an alias for an X fonts.
 // Make sure this is available on your system.  Substitute as necessary.
