@@ -13,7 +13,12 @@ the highly technical details of the implementation.
 #include <iostream>
 #include "ccc_x11.h"
 
-/* CONSTANTS ****************************************************************/
+// The following is an alias for an X fonts.
+// Make sure this is available on your system.  Substitute as necessary.
+#define SYS_FONT_NAME  "-adobe-courier-bold-r-normal-*-14-*-*-*-*-*-*"
+
+/* Our program wrapper. */
+extern int ccc_win_main();
 
 const double DEFAULT_XMIN = -100;
 const double DEFAULT_YMIN = 100;
@@ -22,13 +27,6 @@ const double DEFAULT_YMAX = -100;
 
 static int DEF_WIDTH = 500;
 static int DEF_HEIGHT = 500;
-
-// The following is an alias for an X fonts.
-// Make sure this is available on your system.  Substitute as necessary.
-#define SYS_FONT_NAME  "-adobe-courier-bold-r-normal-*-14-*-*-*-*-*-*"
-
-/* Our program wrapper. */
-extern int ccc_win_main();
 
 GraphicWindow cwin;
 
@@ -303,6 +301,26 @@ int GraphicWindow::put_string(const char instr[], int str_x, int curr_x)
    /* redraw cursor */
    XDrawLine(display, win, xgc, curr_x, 0, curr_x, ascent + descent);
    return curr_x;
+}
+
+/*  Notice, that functions are renamed so that working with x and y is more
+    intuitive. DEFAULT_XMAX and DEFAULT_XMIN are defined opposite of what they should be so that the GraphicWindow obj works as expected.
+ */
+double GraphicWindow::get_xmin(){
+    xmin = DEFAULT_XMIN;
+    return xmin;
+}
+double GraphicWindow::get_xmax(){
+    xmax = DEFAULT_XMAX;
+    return xmax;
+}
+double GraphicWindow::get_ymin(){
+    ymin = DEFAULT_YMAX;
+    return ymin;
+}
+double GraphicWindow::get_ymax(){
+    ymax = DEFAULT_YMIN;
+    return ymax;
 }
 
 /***************************************************************************/

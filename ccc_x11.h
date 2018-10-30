@@ -13,6 +13,9 @@ using namespace std;
 
 #include "ccc_shap.h"
 
+/* CONSTANTS ****************************************************************/
+
+
 /**
    A conduit to a display window.
 */
@@ -98,6 +101,12 @@ public:
       @param w the window
    */
    void open(Display* d, Window w);
+    
+    //CUSTOM
+    double get_xmin();
+    double get_xmax();
+    double get_ymin();
+    double get_ymax();
 private:
    /**
       Scales an x-coordinate from user to display coordinates.
@@ -192,6 +201,8 @@ private:
    Display* display;
    int screen_num;
    GC xgc;
+    
+    double xmin, xmax, ymin, ymax;
 };
 
 extern GraphicWindow cwin;

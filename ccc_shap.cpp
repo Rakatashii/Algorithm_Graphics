@@ -312,4 +312,61 @@ void Prism::display(){
     cwin << top_right << top_left << bot_right << bot_left;
 }
 
+/*-------------------------------------------------------------------------*/
+/* Polygon CLASS */
 
+Polygon::Polygon(){}
+void Polygon::add_point(Point p1){
+    corners.push_back(p1);
+}
+void Polygon::plot_corners(){
+    vector<Point> temp_corners = corners;
+    int i;
+    for (i = 0; i < (corners.size()-1); i++){
+        Line l(corners[i], corners[i+1]);
+        lines.push_back(l);
+    }
+    Line l(corners[0], corners[corners.size()-1]);
+    lines.push_back(l);
+}
+void Polygon::display_corners() const{
+    int i;
+    for (i = 0; i < corners.size(); i++){
+        cwin << corners[i];
+    }
+}
+void Polygon::display_lines() const{
+    int i;
+    for (i = 0; i < lines.size(); i++){
+        cwin << lines[i];
+    }
+}
+void Polygon::display(){
+    if (lines.size() == 0){
+        plot_corners();
+    }
+    display_corners();
+    display_lines();
+}
+double Polygon::get_distance(Point p1, Point p2) const{
+    double distance = sqrt( pow((p1.get_x()-p2.get_x()), 2) + pow((p1.get_y()-p2.get_y()),2) );
+    return distance;
+}
+double Polygon::get_num_corners(){
+    return corners.size();
+}
+
+/*
+private:
+    vector<Point> corners;
+    vector<Line> connections;
+*/
+
+//HELPERS
+void remove_corner(vector<Point>& vp, int index){
+    int i;
+    for (i = index; i < (vp.size() - 1); i++){
+        vp[i] = vp[i+1];
+    }
+    vp.pop_back();
+}

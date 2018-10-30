@@ -2,12 +2,10 @@
 #define CCC_SHAP_H
 
 #include <string>
+#include <vector>
 
 using namespace std;
 
-/**
-   A point in the plane.
-*/
 class Point
 {
 public:
@@ -212,6 +210,29 @@ private:
     Rectangle r1, r2;
     Line top_right, top_left, bot_right, bot_left;
 };
+
+// POLYGON CLASS
+class Polygon {
+public:
+    Polygon();
+    void add_point(Point p1);
+    void plot_corners();
+    void display_corners() const;
+    void display_lines() const;
+    void display();
+    double get_distance(Point p1, Point p2) const;
+    double get_num_corners();
+private:
+    vector<Point> corners;
+    vector<Line> lines;
+};
+
+// HELPERS
+void remove_corner(vector<Point>& vp, int index); // removes from the explicit parameter vector
+
+/**
+ A point in the plane.
+ */
 
 
 #endif
