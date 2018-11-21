@@ -65,19 +65,6 @@ int ccc_win_main()
     Prism p1(rect1, rect2);
     p1.display();
     
-    /*
-    Line lr1(top_left1, rect1.get_topright());
-    Point top1(lr1.midpoint().get_x(), lr1.midpoint().get_y()+40);
-    Line lr2(top_left2, rect2.get_topright());
-    Point top2(lr2.midpoint().get_x(), lr2.midpoint().get_y()+40);
-    */
-    /*
-    Triangle t1(top_left1, rect1.get_topright(), top1);
-    Triangle t2(top_left2, rect2.get_topright(), top2);
-    t1.display();
-    t2.display();
-    */
-    
     Line surface_diagonal(rect1.get_topleft(), rect2.get_topright());
     //Point peak(surface_diagonal.midpoint().get_x(), surface_diagonal.midpoint().get_y()+30);
     Point peak = cwin.get_mouse("Click peak location");
@@ -91,10 +78,7 @@ int ccc_win_main()
     t1.display();
     t2.display();
     
-    //Prism p2(t1, t2);
-    //p2.display();
     
-    // Working
     return 0;
 }
 
