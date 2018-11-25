@@ -6,4 +6,4 @@ dependencies: /Users/christianmeyer/Cpp/ch11/P11_14_15_16/main.cpp \
   /usr/X11/include/X11/keysymdef.h /usr/X11/include/X11/Xatom.h \
   /usr/X11/include/X11/Xos.h /usr/X11/include/X11/Xarch.h \
   /Users/christianmeyer/Cpp/ch11/P11_14_15_16/ccc_shap.h \
-  /Users/christianmeyer/Cpp/ch11/P11_14_15_16/Build/util.hpp
+  /Users/christianmeyer/Cpp/ch11/P11_14_15_16/util.hpp
