@@ -26,7 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		53AAE3E7144D14E60082B27B /* Horstmann_Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Horstmann_Template; sourceTree = BUILT_PRODUCTS_DIR; };
+		53AAE3E7144D14E60082B27B /* P11_14_15_16 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = P11_14_15_16; sourceTree = BUILT_PRODUCTS_DIR; };
 		53AAE3F4144D15530082B27B /* ccc_shap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ccc_shap.cpp; sourceTree = "<group>"; };
 		53AAE3F5144D15530082B27B /* ccc_shap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccc_shap.h; sourceTree = "<group>"; };
 		53AAE3F6144D15530082B27B /* ccc_win.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccc_win.h; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		53AAE3E8144D14E60082B27B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				53AAE3E7144D14E60082B27B /* Horstmann_Template */,
+				53AAE3E7144D14E60082B27B /* P11_14_15_16 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,9 +74,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		53AAE3E6144D14E60082B27B /* Horstmann_Template */ = {
+		53AAE3E6144D14E60082B27B /* P11_14_15_16 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53AAE3F1144D14E60082B27B /* Build configuration list for PBXNativeTarget "Horstmann_Template" */;
+			buildConfigurationList = 53AAE3F1144D14E60082B27B /* Build configuration list for PBXNativeTarget "P11_14_15_16" */;
 			buildPhases = (
 				53AAE3E3144D14E60082B27B /* Sources */,
 				53AAE3E4144D14E60082B27B /* Frameworks */,
@@ -86,9 +86,9 @@
 			);
 			dependencies = (
 			);
-			name = Horstmann_Template;
+			name = P11_14_15_16;
 			productName = Horstmann;
-			productReference = 53AAE3E7144D14E60082B27B /* Horstmann_Template */;
+			productReference = 53AAE3E7144D14E60082B27B /* P11_14_15_16 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +100,7 @@
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Drexel University";
 			};
-			buildConfigurationList = 53AAE3E1144D14E50082B27B /* Build configuration list for PBXProject "Horstmann_Template" */;
+			buildConfigurationList = 53AAE3E1144D14E50082B27B /* Build configuration list for PBXProject "P11_14_15_16" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				53AAE3E6144D14E60082B27B /* Horstmann_Template */,
+				53AAE3E6144D14E60082B27B /* P11_14_15_16 */,
 			);
 		};
 /* End PBXProject section */
@@ -202,7 +202,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		53AAE3E1144D14E50082B27B /* Build configuration list for PBXProject "Horstmann_Template" */ = {
+		53AAE3E1144D14E50082B27B /* Build configuration list for PBXProject "P11_14_15_16" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				53AAE3EF144D14E60082B27B /* Debug */,
@@ -211,7 +211,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53AAE3F1144D14E60082B27B /* Build configuration list for PBXNativeTarget "Horstmann_Template" */ = {
+		53AAE3F1144D14E60082B27B /* Build configuration list for PBXNativeTarget "P11_14_15_16" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				53AAE3F2144D14E60082B27B /* Debug */,
