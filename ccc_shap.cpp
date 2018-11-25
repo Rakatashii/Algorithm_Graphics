@@ -1,5 +1,4 @@
 #include <cstdio>
-
 #include "ccc_shap.h"
 #include <cmath>
 

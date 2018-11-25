@@ -25,7 +25,7 @@ static int DEF_HEIGHT = 700;
 
 // The following is an alias for an X fonts.
 // Make sure this is available on your system.  Substitute as necessary.
-#define SYS_FONT_NAME  "-adobe-courier-bold-r-normal-*-14-*-*-*-*-*-*"
+#define SYS_FONT_NAME  "-adobe-courier-bold-r-normal-*-12-*-*-*-*-*-*"
 
 /* Our program wrapper. */
 extern int ccc_win_main();

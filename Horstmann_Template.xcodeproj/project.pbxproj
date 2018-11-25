@@ -10,6 +10,7 @@
 		53AAE3FA144D15530082B27B /* ccc_shap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53AAE3F4144D15530082B27B /* ccc_shap.cpp */; };
 		53AAE3FB144D15530082B27B /* ccc_x11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53AAE3F7144D15530082B27B /* ccc_x11.cpp */; };
 		53AAE3FC144D15530082B27B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53AAE3F9144D15530082B27B /* main.cpp */; };
+		55A08ECD21A9F0300010C8DA /* util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55A08ECB21A9F0300010C8DA /* util.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,8 @@
 		53AAE3F7144D15530082B27B /* ccc_x11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ccc_x11.cpp; sourceTree = "<group>"; };
 		53AAE3F8144D15530082B27B /* ccc_x11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccc_x11.h; sourceTree = "<group>"; };
 		53AAE3F9144D15530082B27B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		55A08ECB21A9F0300010C8DA /* util.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = util.cpp; path = Build/util.cpp; sourceTree = "<group>"; };
+		55A08ECC21A9F0300010C8DA /* util.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = util.hpp; path = Build/util.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 				53AAE3F6144D15530082B27B /* ccc_win.h */,
 				53AAE3F8144D15530082B27B /* ccc_x11.h */,
 				53AAE3F7144D15530082B27B /* ccc_x11.cpp */,
+				55A08ECC21A9F0300010C8DA /* util.hpp */,
+				55A08ECB21A9F0300010C8DA /* util.cpp */,
 				53AAE3F5144D15530082B27B /* ccc_shap.h */,
 				53AAE3F4144D15530082B27B /* ccc_shap.cpp */,
 				53AAE3F9144D15530082B27B /* main.cpp */,
@@ -120,6 +125,7 @@
 				53AAE3FA144D15530082B27B /* ccc_shap.cpp in Sources */,
 				53AAE3FB144D15530082B27B /* ccc_x11.cpp in Sources */,
 				53AAE3FC144D15530082B27B /* main.cpp in Sources */,
+				55A08ECD21A9F0300010C8DA /* util.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
