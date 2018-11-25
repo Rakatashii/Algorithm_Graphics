@@ -48,7 +48,7 @@ int ccc_win_main() {
     
     vector<vector<string> > coord_strings;
     vector<string > coord_string;
-    
+
     while (vp.size() < sz){
         getline(fs, x_str, '|');
         getline(fs, y_str, '\n');
@@ -66,7 +66,7 @@ int ccc_win_main() {
     
     vector<Point> copy1 = vp;
     vector<Point> copy2 = vp;
-    
+
     quicksortx(vp, 0, vp.size()-1);
     HELPERS::sleep(1000);
     cwin.clear();
@@ -87,6 +87,7 @@ int ccc_win_main() {
     current_process = "BINARY_SEARCH1";
     print_binary_search_results(vp, val1, pos1, "FOUND1", sleeptime);
     HELPERS::sleep(500);
+
     cwin.clear();
     
     current_process = "BINARY_SEARCH2";
@@ -94,6 +95,13 @@ int ccc_win_main() {
     HELPERS::sleep(500);
     cwin.clear();
     
+    cwin.clear();
+    
+    current_process = "BINARY_SEARCH2";
+    print_binary_search_results(vp, val2, pos2, "FOUND2", sleeptime);
+    HELPERS::sleep(500);
+    cwin.clear();
+
     current_process = "BINARY_SEARCH3";
     print_binary_search_results(vp, val3, pos3, "FOUND3", sleeptime);
     HELPERS::sleep(500);
@@ -153,7 +161,7 @@ void selection_sortx(vector<Point> &v){
 }
 void merge(vector<Point>& v, int from, int mid, int to){
     vector<Point> z = HELPERS::get_subvector(v, from, to);
-    
+
     int i1 = from;
     int i2 = mid+1;
     int j = 0;
@@ -284,3 +292,4 @@ bool binary_search(vector<Point> v, int from, int to, double val, int& pos, doub
     else if (static_cast<int>(v[mid].get_x()) < static_cast<int>(val)) return binary_search(v, mid+1, to, val, pos, sleeptime);
     else return binary_search(v, from, mid-1, val, pos, sleeptime);
 }
+

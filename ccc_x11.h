@@ -98,6 +98,7 @@ public:
       @param w the window
    */
    void open(Display* d, Window w);
+    
 private:
    /**
       Scales an x-coordinate from user to display coordinates.
